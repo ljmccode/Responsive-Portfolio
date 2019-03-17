@@ -1,0 +1,169 @@
+body {
+    background-image: url("http://getdrawings.com/watercolors/tumblr-watercolor-background-37.jpg");
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 1em;
+}
+
+section {
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 40px;
+    max-width: 960px;
+    width: 100%;
+    margin: 40px auto;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+section h1 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid purple;
+    margin-bottom: 10px;
+    color: #4aaaa5;
+    text-shadow: 1px 1px white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 200ps;
+    width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+form div {
+    line-height: 27px;
+    color: #777777;
+}
+
+input {
+    height: 20px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+}
+
+.submit {
+    height: 40px;
+}
+
+.submit {
+    color: white;
+    background-color: #4aaaae;
+    text-align: center;
+    padding: 10px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image1 {
+        position: relative;
+        height:200px;
+        width: 280px;
+        border: lightgray;
+        background-image: url("https://images.techhive.com/images/article/2016/03/9-ipad-pro-keyboard-stock-100651654-large.jpg");
+        background-size: cover;
+        margin: 1em;
+    }
+
+.image2 {
+        position: relative;
+        height:200px;
+        width: 280px;
+        border: lightgray;
+        background-image: url("https://ksassets.timeincuk.net/wp/uploads/sites/54/2018/01/PS4_SkyrimHD_2.jpg");
+        background-size: cover;
+        margin: 1em;
+    }
+
+.image3 {
+        position: relative;
+        height:200px;
+        width: 280px;
+        border: lightgray;
+        background-image: url("https://polklibrary.org/wp-content/uploads/2018/12/Trivial-Pursuit.jpg");
+        background-size: cover;
+        margin: 1em; 
+    }
+
+.image4 {
+    position: relative;
+    height:200px;
+    width: 280px;
+    border: lightgray;
+    background-image: url("https://i.ytimg.com/vi/xUAqlwAazFM/maxresdefault.jpg");
+    background-size: cover;
+    margin: 1em;
+    }
+
+.image5 {
+    position: relative;
+    height:200px;
+    width: 280px;
+    border: lightgray;
+    background-image: url("https://www.esquireme.com/sites/default/files/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=jFv2T0kr");
+    background-size: cover;
+    margin: 1em;
+    }
+
+.image-text {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(52, 179, 177, .7);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    flex: 1 0 auto;
+
+}
+
+@media screen and (max-width: 640px) {
+
+section {
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+    }
