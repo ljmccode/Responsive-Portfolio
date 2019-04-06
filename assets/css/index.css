@@ -89,7 +89,7 @@ textarea {
         width: 280px;
         border: lightgray;
         background-image: url("https://images-na.ssl-images-amazon.com/images/I/817lcMsPPPL._SX425_.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         margin: 1em;
     }
 
@@ -98,9 +98,10 @@ textarea {
         height:200px;
         width: 280px;
         border: lightgray;
-        background-image: url("https://ksassets.timeincuk.net/wp/uploads/sites/54/2018/01/PS4_SkyrimHD_2.jpg");
-        background-size: cover;
+        background-image: url("https://images-na.ssl-images-amazon.com/images/I/41CDCmrq53L._SX425_.jpg");
+        background-size: 100% 100%;
         margin: 1em;
+        border: solid rgb(136, 134, 134) 1px;
     }
 
 .image3 {
